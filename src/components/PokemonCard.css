@@ -1,0 +1,15 @@
+.img-container{
+   background-color: rgb(235, 234, 234);
+   margin: 8px 8px 0px 8px;
+   border-radius: 10px;
+}
+
+.text{
+   margin-top: -10px;
+   font-weight: 600;
+   color: grey;
+}
+
+.body{
+   text-align: center;
+}

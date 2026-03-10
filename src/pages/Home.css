@@ -1,0 +1,26 @@
+.oak-container {
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+}
+
+.oak {
+  height: 500px;
+  position: relative;
+  z-index: -1;
+}
+
+.text-box{
+  padding: 1.2em;
+  margin: 0em 8em;
+  border: 3px solid lightgrey;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+  top: 724px
+}
+
+.btn-container{
+  display: flex;
+  justify-content: flex-end;
+}

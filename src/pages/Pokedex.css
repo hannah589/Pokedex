@@ -1,0 +1,16 @@
+.pokedexPage{
+  padding: 4em 8em;
+}
+
+.gridContainer{
+  padding: 4em 0em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2em;
+}
+
+.btn-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.light-mode{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  text-align: center;
+  border: none;
+  border-radius: 24px;
+  padding: 8px;
+  cursor: pointer;
+  transition: 9ms;
+  background-color: transparent;
+}
+
+.light-mode:hover {
+  background-color: grey;
+  color:white;
+}
+
+.icon{
+  font-size: 25px;
+}
