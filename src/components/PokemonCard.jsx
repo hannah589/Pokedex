@@ -1,4 +1,3 @@
-//import { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import './PokemonCard.css'
 
@@ -14,7 +13,7 @@ function PokemonCard({ sprites, id, name }) {
           className='img-container'
         />
         <Card.Body className='body'>
-          <Card.Text className='text'>#00{id}</Card.Text>
+          <Card.Text className='text'>{id}</Card.Text>
 
           {/* Capitalize first letter of a word:
            style={{ textTransform: "capitalize" }}> */}

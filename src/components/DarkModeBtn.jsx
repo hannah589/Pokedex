@@ -8,7 +8,7 @@ function DarkModeBtn() {
   const [isLightModeBtn, setIsLightModeBtn] = useState(true);
 
   //function when click button toggle:
-  //light and dark mode button state
+  //light to dark mode, button state
   function toggle(){
     setIsLightModeBtn(!isLightModeBtn)
   }
@@ -16,7 +16,7 @@ function DarkModeBtn() {
   return (
     <>
       <button onClick={toggle}className='light-mode'>
-        {/*If light mode is true, show light mode button, sun icon. If not show moon dark mode button, moon icon*/}
+        {/*If light mode is true, show light mode button, sun icon. If not show dark mode button, moon icon*/}
         {isLightModeBtn ? <LuSun className='icon' /> : <LuMoon className='icon' />}
       </button>
       

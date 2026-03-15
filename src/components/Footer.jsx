@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className="attribution">
-      Copyright © 2026 Pokédex. Built with React Bootstrap.
+      Copyright © 2026 Pokédex.
     </div>
   )
 }
