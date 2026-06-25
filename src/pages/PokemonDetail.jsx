@@ -88,7 +88,7 @@ function triggerTextDownload(text, filename = "pokemonData.txt") {
 
   //getPokemonDesc() .change over when importing from services page 
   
-  //fetch Pokemon description data from https://pokeapi.co/api/v2/pokemon-species/25
+  //fetch Pokemon description data from https://pokeapi.co/api/v2/pokemon-species/ditto
   useEffect(() => {
 		const getPokemonDesc = async () => {
 			try {
