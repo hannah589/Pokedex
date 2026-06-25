@@ -4,3 +4,36 @@
   margin: 0;
   padding: 0;
 }
+
+html, body, #root{
+  height: 100%;
+}
+
+.app-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+main{
+  flex: 1; /* grows to push footer down */
+}
+
+/*light mode */
+body {
+  background: white;
+  color: #212529;
+}
+
+/* dark mode */
+.dark body {
+  background: #3c4249;
+  color: white;
+  .stats, .text-box{
+    color: #212121;
+    }
+}
+
+a{
+  text-decoration: none;
+}

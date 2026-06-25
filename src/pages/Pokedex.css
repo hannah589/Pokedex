@@ -5,7 +5,8 @@
 .gridContainer{
   padding: 4em 0em;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
   gap: 2em;
 }
 
@@ -13,4 +14,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.pokemonCard {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

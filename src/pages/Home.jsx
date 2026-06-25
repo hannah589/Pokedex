@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <>
+    <>  
       <div className="oak-container">
         <img src="https://static.wikia.nocookie.net/pokemon/images/2/26/Professor_Oak_anime_XY_and_XYZ.png/revision/latest/scale-to-width/360?cb=20131221014829" alt="Professor Oak" className='oak'></img>
       </div>
@@ -32,3 +32,4 @@ function Home() {
 }
 
 export default Home
+
