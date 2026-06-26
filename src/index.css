@@ -27,7 +27,7 @@ body {
 
 /* dark mode */
 .dark body {
-  background: #3c4249;
+  background: #212529;
   color: white;
   .stats, .text-box{
     color: #212121;
